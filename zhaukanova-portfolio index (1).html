@@ -1,0 +1,3024 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#f5f2eb">
+
+<meta name="description" content="Профессиональная биография, нотариальная практика, направления деятельности и контактная информация нотариуса Республики Казахстан.">
+
+<title>Профессиональная практика | Нотариус Жауканова А. А.</title>
+
+<style>
+
+/* ==========================================
+   01. GLOBAL
+========================================== */
+
+:root {
+    --paper: #f5f2eb;
+    --paper-dark: #ece8de;
+    --white: #fffefa;
+
+    --wine: #482d36;
+    --wine-dark: #35212a;
+    --wine-light: #684752;
+
+    --gold: #a88b68;
+    --gold-light: #c7ad89;
+
+    --ink: #302b29;
+    --muted: #89817a;
+
+    --line: rgba(72,45,54,.15);
+
+    --serif: Georgia, "Times New Roman", serif;
+
+    --sans: -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Arial,
+            sans-serif;
+
+    --width: 1240px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+
+    font-family: var(--sans);
+
+    -webkit-font-smoothing: antialiased;
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--wine);
+    color: white;
+}
+
+.container {
+    width: min(var(--width), calc(100% - 100px));
+    margin: auto;
+}
+
+.section {
+    padding: 125px 0;
+}
+
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    color: var(--gold);
+
+    font-size: 10px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+
+    margin-bottom: 28px;
+}
+
+.section-label::before {
+    content: "";
+
+    width: 36px;
+    height: 1px;
+
+    background: var(--gold);
+}
+
+.section-title {
+    font-family: var(--serif);
+    font-weight: 400;
+
+    color: var(--wine);
+
+    font-size: clamp(43px, 5vw, 68px);
+    line-height: 1.08;
+
+    letter-spacing: -.045em;
+}
+
+.section-description {
+    color: var(--muted);
+
+    font-size: 14px;
+    line-height: 1.95;
+
+    max-width: 420px;
+}
+
+
+/* ==========================================
+   02. PRELOADER-FREE SCROLL INDICATOR
+========================================== */
+
+.progress {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    height: 2px;
+    width: 0;
+
+    background: var(--gold);
+
+    z-index: 1000;
+}
+
+
+/* ==========================================
+   03. HEADER
+========================================== */
+
+.header {
+    position: sticky;
+
+    top: 0;
+    z-index: 100;
+
+    background: rgba(245,242,235,.94);
+
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+    min-height: 84px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+.brand {
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+}
+
+.brand-symbol {
+    width: 43px;
+    height: 43px;
+
+    border: 1px solid var(--gold);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--gold);
+
+    font-family: var(--serif);
+    font-size: 24px;
+}
+
+.brand-title {
+    color: var(--wine);
+
+    font-family: var(--serif);
+    font-size: 19px;
+}
+
+.brand-caption {
+    margin-top: 4px;
+
+    color: var(--muted);
+
+    font-size: 8px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    gap: 32px;
+}
+
+.nav a {
+    color: #756a68;
+
+    font-size: 11px;
+    letter-spacing: .045em;
+
+    transition: color .3s;
+}
+
+.nav a:hover {
+    color: var(--gold);
+}
+
+.menu-button {
+    display: none;
+
+    background: none;
+    border: none;
+
+    color: var(--wine);
+
+    cursor: pointer;
+
+    font-size: 25px;
+}
+
+
+/* ==========================================
+   04. HERO
+========================================== */
+
+.hero {
+    position: relative;
+
+    min-height: 690px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    padding: 90px 0 105px;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    right: -180px;
+    top: 60px;
+
+    width: 620px;
+    height: 620px;
+
+    border: 1px solid rgba(168,139,104,.17);
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    right: -95px;
+    top: 145px;
+
+    width: 450px;
+    height: 450px;
+
+    border: 1px solid rgba(168,139,104,.13);
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+.hero-grid {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns: 1.12fr .88fr;
+
+    align-items: center;
+
+    gap: 75px;
+}
+
+.hero-content {
+    max-width: 720px;
+}
+
+.hero-overline {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    color: var(--gold);
+
+    font-size: 10px;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+
+    margin-bottom: 34px;
+}
+
+.hero-overline span {
+    width: 42px;
+    height: 1px;
+
+    background: var(--gold);
+}
+
+.hero h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+
+    font-size: clamp(50px, 6.5vw, 90px);
+
+    line-height: .98;
+    letter-spacing: -.055em;
+
+    color: var(--wine);
+
+    margin-bottom: 28px;
+}
+
+.hero h1 em {
+    font-style: italic;
+
+    color: var(--gold);
+}
+
+.hero-role {
+    font-size: 12px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+
+    color: var(--wine-light);
+
+    margin-bottom: 27px;
+}
+
+.hero-text {
+    max-width: 490px;
+
+    color: #746d67;
+
+    font-size: 15px;
+    line-height: 1.95;
+}
+
+.hero-line {
+    width: 80px;
+    height: 1px;
+
+    background: var(--gold);
+
+    margin-top: 43px;
+}
+
+.hero-visual {
+    position: relative;
+
+    min-height: 445px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-seal {
+    position: relative;
+
+    width: 340px;
+    height: 340px;
+
+    border-radius: 50%;
+
+    border: 1px solid rgba(168,139,104,.55);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-seal::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 15px;
+
+    border-radius: 50%;
+
+    border: 1px solid rgba(168,139,104,.35);
+}
+
+.hero-seal::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 32px;
+
+    border-radius: 50%;
+
+    border: 1px dashed rgba(168,139,104,.35);
+}
+
+.seal-inner {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+}
+
+.seal-symbol {
+    font-family: var(--serif);
+
+    font-size: 110px;
+    line-height: 1;
+
+    color: var(--wine);
+}
+
+.seal-caption {
+    margin-top: 18px;
+
+    font-size: 9px;
+    letter-spacing: .26em;
+
+    color: var(--gold);
+    text-transform: uppercase;
+}
+
+.hero-side-note {
+    position: absolute;
+
+    right: 0;
+    bottom: 5px;
+
+    color: var(--muted);
+
+    font-size: 9px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+
+    writing-mode: vertical-rl;
+}
+
+
+/* ==========================================
+   05. FACTS STRIP
+========================================== */
+
+.facts {
+    background: var(--wine);
+
+    color: white;
+
+    padding: 40px 0;
+}
+
+.facts-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fact {
+    padding: 8px 42px;
+
+    border-right: 1px solid rgba(255,255,255,.14);
+}
+
+.fact:first-child {
+    padding-left: 0;
+}
+
+.fact:last-child {
+    border-right: none;
+}
+
+.fact-number {
+    font-family: var(--serif);
+
+    font-size: 47px;
+    line-height: 1;
+
+    color: var(--gold-light);
+}
+
+.fact-description {
+    margin-top: 13px;
+
+    font-size: 10px;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+
+    color: rgba(255,255,255,.66);
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   06. PROFESSIONAL STORY
+========================================== */
+
+.story {
+    background: var(--paper);
+}
+
+.story-grid {
+    display: grid;
+
+    grid-template-columns: .85fr 1.15fr;
+
+    gap: 110px;
+}
+
+.story-aside {
+    position: relative;
+}
+
+.story-aside-number {
+    font-family: var(--serif);
+
+    color: rgba(168,139,104,.24);
+
+    font-size: 190px;
+    line-height: .9;
+
+    letter-spacing: -.08em;
+}
+
+.story-aside-caption {
+    margin-top: 20px;
+
+    color: var(--gold);
+
+    font-size: 10px;
+    letter-spacing: .19em;
+    text-transform: uppercase;
+}
+
+.story-content h2 {
+    font-family: var(--serif);
+
+    font-weight: 400;
+
+    font-size: 49px;
+    line-height: 1.1;
+
+    color: var(--wine);
+
+    letter-spacing: -.035em;
+
+    margin-bottom: 34px;
+}
+
+.story-content p {
+    color: #746d67;
+
+    font-size: 14px;
+    line-height: 2.1;
+
+    margin-bottom: 20px;
+}
+
+.story-content p strong {
+    color: var(--wine);
+    font-weight: 600;
+}
+
+.story-highlight {
+    border-left: 2px solid var(--gold);
+
+    margin-top: 38px;
+
+    padding: 10px 0 10px 27px;
+
+    font-family: var(--serif);
+
+    font-size: 22px;
+    line-height: 1.55;
+
+    color: var(--wine);
+    font-style: italic;
+}
+
+
+/* ==========================================
+   07. CORPORATE PRACTICE
+========================================== */
+
+.corporate {
+    background: var(--paper-dark);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.corporate-top {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 50px;
+
+    margin-bottom: 75px;
+}
+
+.corporate-top .section-title {
+    max-width: 580px;
+}
+
+.corporate-note {
+    max-width: 330px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.corporate-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+}
+
+.corporate-card {
+    position: relative;
+
+    min-height: 300px;
+
+    padding: 43px;
+
+    background: var(--white);
+
+    border: 1px solid rgba(72,45,54,.08);
+
+    transition:
+        transform .4s ease,
+        box-shadow .4s ease;
+}
+
+.corporate-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 20px 50px rgba(53,33,42,.07);
+}
+
+.corporate-card-index {
+    font-family: var(--serif);
+
+    color: var(--gold);
+
+    font-size: 50px;
+    line-height: 1;
+
+    opacity: .7;
+
+    margin-bottom: 38px;
+}
+
+.corporate-card h3 {
+    color: var(--wine);
+
+    font-family: var(--serif);
+
+    font-weight: 400;
+    font-size: 30px;
+
+    margin-bottom: 26px;
+}
+
+.corporate-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.company {
+    border: 1px solid rgba(168,139,104,.35);
+
+    padding: 10px 14px;
+
+    color: #675c57;
+
+    font-size: 12px;
+    letter-spacing: .015em;
+
+    background: #faf8f3;
+
+    transition:
+        background .3s,
+        color .3s;
+}
+
+.company:hover {
+    color: white;
+    background: var(--wine);
+}
+
+.corporate-footnote {
+    margin-top: 38px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+
+/* ==========================================
+   08. NOTARIAL PRACTICE
+========================================== */
+
+.practice {
+    background: var(--wine-dark);
+
+    color: white;
+
+    position: relative;
+}
+
+.practice .section-title {
+    color: white;
+}
+
+.practice .section-label {
+    color: var(--gold-light);
+}
+
+.practice-intro {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    gap: 50px;
+
+    margin-bottom: 65px;
+}
+
+.practice-intro .section-description {
+    color: rgba(255,255,255,.57);
+}
+
+.practice-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1px;
+
+    background: rgba(255,255,255,.13);
+
+    border: 1px solid rgba(255,255,255,.13);
+}
+
+.practice-card {
+    min-height: 300px;
+
+    padding: 40px;
+
+    background: var(--wine-dark);
+
+    transition: background .3s;
+}
+
+.practice-card:hover {
+    background: #402b33;
+}
+
+.practice-number {
+    color: var(--gold-light);
+
+    font-family: var(--serif);
+
+    font-size: 43px;
+
+    margin-bottom: 28px;
+
+    opacity: .8;
+}
+
+.practice-card h3 {
+    font-family: var(--serif);
+
+    font-size: 27px;
+    font-weight: 400;
+
+    margin-bottom: 24px;
+
+    color: white;
+}
+
+.practice-card ul {
+    list-style: none;
+}
+
+.practice-card li {
+    position: relative;
+
+    padding-left: 17px;
+
+    margin-bottom: 13px;
+
+    color: rgba(255,255,255,.62);
+
+    font-size: 12px;
+    line-height: 1.75;
+}
+
+.practice-card li::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 8px;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: var(--gold);
+}
+
+
+/* ==========================================
+   09. PRINCIPLES
+========================================== */
+
+.principles {
+    background: var(--paper);
+}
+
+.principles-heading {
+    margin-bottom: 75px;
+}
+
+.principles-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.principle {
+    min-height: 260px;
+
+    padding: 39px 25px 35px;
+
+    border-right: 1px solid var(--line);
+
+    transition: background .3s;
+}
+
+.principle:first-child {
+    padding-left: 0;
+}
+
+.principle:last-child {
+    border-right: none;
+}
+
+.principle:hover {
+    background: rgba(255,255,255,.65);
+}
+
+.principle-number {
+    color: var(--gold);
+
+    font-family: var(--serif);
+    font-size: 18px;
+
+    margin-bottom: 41px;
+}
+
+.principle h3 {
+    font-family: var(--serif);
+
+    font-size: 25px;
+    font-weight: 400;
+
+    color: var(--wine);
+
+    margin-bottom: 18px;
+}
+
+.principle p {
+    color: var(--muted);
+
+    font-size: 12px;
+    line-height: 1.95;
+}
+
+
+/* ==========================================
+   10. PHILOSOPHY
+========================================== */
+
+.philosophy {
+    background: var(--paper-dark);
+
+    padding: 130px 0;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.philosophy::before {
+    content: "“";
+
+    position: absolute;
+
+    left: 50%;
+    top: 30px;
+
+    transform: translateX(-50%);
+
+    font-family: var(--serif);
+
+    color: rgba(168,139,104,.13);
+
+    font-size: 330px;
+    line-height: 1;
+}
+
+.philosophy-content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 920px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.philosophy .section-label {
+    justify-content: center;
+}
+
+.philosophy h2 {
+    font-family: var(--serif);
+
+    font-weight: 400;
+
+    font-size: 58px;
+    line-height: 1.15;
+
+    letter-spacing: -.04em;
+
+    color: var(--wine);
+
+    margin-bottom: 40px;
+}
+
+.philosophy-text {
+    color: #766c65;
+
+    font-size: 15px;
+    line-height: 2.1;
+}
+
+.philosophy-text p {
+    margin-bottom: 20px;
+}
+
+.philosophy-author {
+    margin-top: 48px;
+
+    font-family: var(--serif);
+
+    font-size: 18px;
+    font-style: italic;
+
+    color: var(--gold);
+}
+
+
+/* ==========================================
+   11. PROFESSIONAL JOURNEY
+========================================== */
+
+.journey {
+    background: var(--paper);
+
+    padding: 110px 0;
+}
+
+.journey-grid {
+    display: grid;
+
+    grid-template-columns: .85fr 1.15fr;
+
+    gap: 100px;
+
+    align-items: center;
+}
+
+.journey-heading .section-title {
+    font-size: 52px;
+}
+
+.journey-items {
+    border-top: 1px solid var(--line);
+}
+
+.journey-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+
+    padding: 27px 0;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.journey-item-number {
+    width: 85px;
+
+    flex-shrink: 0;
+
+    font-family: var(--serif);
+
+    font-size: 33px;
+
+    color: var(--gold);
+}
+
+.journey-item-text {
+    color: #756d66;
+
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.journey-item-text strong {
+    display: block;
+
+    color: var(--wine);
+
+    font-family: var(--serif);
+
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-bottom: 4px;
+}
+
+
+/* ==========================================
+   12. CONTACTS
+========================================== */
+
+.contacts {
+    background: var(--wine);
+
+    padding: 105px 0;
+
+    color: white;
+}
+
+.contacts-grid {
+    display: grid;
+
+    grid-template-columns: .9fr 1.1fr;
+
+    gap: 100px;
+}
+
+.contacts-heading h2 {
+    font-family: var(--serif);
+
+    font-size: 65px;
+    line-height: 1.05;
+
+    font-weight: 400;
+
+    letter-spacing: -.045em;
+
+    color: white;
+}
+
+.contacts-heading p {
+    margin-top: 25px;
+
+    color: rgba(255,255,255,.55);
+
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.contacts .section-label {
+    color: var(--gold-light);
+}
+
+.contacts-list {
+    border-top: 1px solid rgba(255,255,255,.18);
+}
+
+.contact-row {
+    padding: 27px 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 25px;
+
+    border-bottom: 1px solid rgba(255,255,255,.18);
+}
+
+.contact-label {
+    color: rgba(255,255,255,.48);
+
+    font-size: 11px;
+}
+
+.contact-value {
+    color: white;
+
+    font-size: 14px;
+    text-align: right;
+
+    max-width: 65%;
+
+    line-height: 1.7;
+
+    overflow-wrap: anywhere;
+}
+
+.contact-value a {
+    transition: color .3s;
+}
+
+.contact-value a:hover {
+    color: var(--gold-light);
+}
+
+
+/* ==========================================
+   13. FOOTER
+========================================== */
+
+.footer {
+    padding: 35px 0;
+
+    background: var(--wine-dark);
+
+    color: rgba(255,255,255,.5);
+}
+
+.footer-inner {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+.footer-brand {
+    font-family: var(--serif);
+
+    color: rgba(255,255,255,.85);
+
+    font-size: 19px;
+}
+
+.footer-copy {
+    font-size: 10px;
+    letter-spacing: .06em;
+}
+
+
+/* ==========================================
+   14. REVEAL ANIMATION
+========================================== */
+
+.reveal {
+    opacity: 0;
+
+    transform: translateY(25px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.delay-1 {
+    transition-delay: .1s;
+}
+
+.delay-2 {
+    transition-delay: .2s;
+}
+
+.delay-3 {
+    transition-delay: .3s;
+}
+
+
+/* ==========================================
+   15. RESPONSIVE
+========================================== */
+
+@media(max-width: 1050px) {
+
+    .container {
+        width: calc(100% - 60px);
+    }
+
+    .hero-grid {
+        gap: 30px;
+    }
+
+    .story-grid,
+    .journey-grid {
+        gap: 55px;
+    }
+
+    .contacts-grid {
+        gap: 55px;
+    }
+
+    .principle {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+}
+
+@media(max-width: 760px) {
+
+    html {
+        scroll-padding-top: 75px;
+    }
+
+    .container {
+        width: calc(100% - 42px);
+    }
+
+    .section {
+        padding: 85px 0;
+    }
+
+    /* Header */
+
+    .header-inner {
+        min-height: 73px;
+    }
+
+    .brand-symbol {
+        width: 38px;
+        height: 38px;
+    }
+
+    .brand-title {
+        font-size: 17px;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+
+        position: absolute;
+
+        top: 73px;
+        left: 0;
+        right: 0;
+
+        background: var(--paper);
+
+        border-bottom: 1px solid var(--line);
+
+        padding: 20px 25px 25px;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 23px;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .nav a {
+        font-size: 13px;
+    }
+
+    /* Hero */
+
+    .hero {
+        padding: 75px 0 70px;
+
+        min-height: auto;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .hero h1 {
+        font-size: clamp(40px, 9vw, 65px);
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .hero-visual {
+        min-height: 300px;
+    }
+
+    .hero-seal {
+        width: 255px;
+        height: 255px;
+    }
+
+    .hero-seal::before {
+        inset: 12px;
+    }
+
+    .hero-seal::after {
+        inset: 25px;
+    }
+
+    .seal-symbol {
+        font-size: 82px;
+    }
+
+    .hero-side-note {
+        right: 7px;
+    }
+
+    /* Facts */
+
+    .facts {
+        padding: 30px 0;
+    }
+
+    .facts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fact,
+    .fact:first-child {
+        padding: 19px 0;
+
+        border-right: 0;
+        border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+
+    .fact:last-child {
+        border-bottom: none;
+    }
+
+    .fact-number {
+        font-size: 39px;
+    }
+
+    /* Story */
+
+    .story-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .story-aside-number {
+        font-size: 130px;
+    }
+
+    .story-content h2 {
+        font-size: 43px;
+    }
+
+    .story-highlight {
+        font-size: 20px;
+    }
+
+    /* Corporate */
+
+    .corporate-top {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+
+        margin-bottom: 45px;
+    }
+
+    .corporate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .corporate-card {
+        padding: 30px;
+
+        min-height: 260px;
+    }
+
+    .corporate-card h3 {
+        font-size: 27px;
+    }
+
+    /* Practice */
+
+    .practice-intro {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+
+        margin-bottom: 40px;
+    }
+
+    .practice-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .practice-card {
+        padding: 32px 27px;
+
+        min-height: auto;
+    }
+
+    .practice-card h3 {
+        font-size: 25px;
+    }
+
+    /* Principles */
+
+    .principles-heading {
+        margin-bottom: 45px;
+    }
+
+    .principles-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .principle {
+        padding: 28px 18px;
+
+        min-height: 225px;
+
+        border-bottom: 1px solid var(--line);
+    }
+
+    .principle:first-child {
+        padding-left: 18px;
+    }
+
+    .principle:nth-child(2) {
+        border-right: none;
+    }
+
+    .principle:nth-child(3),
+    .principle:nth-child(4) {
+        border-bottom: none;
+    }
+
+    .principle-number {
+        margin-bottom: 27px;
+    }
+
+    .principle h3 {
+        font-size: 22px;
+    }
+
+    /* Philosophy */
+
+    .philosophy {
+        padding: 85px 0;
+    }
+
+    .philosophy h2 {
+        font-size: 43px;
+    }
+
+    .philosophy-text {
+        font-size: 14px;
+    }
+
+    /* Journey */
+
+    .journey-grid {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .journey-heading .section-title {
+        font-size: 44px;
+    }
+
+    .journey-item {
+        gap: 18px;
+    }
+
+    .journey-item-number {
+        width: 70px;
+
+        font-size: 28px;
+    }
+
+    /* Contacts */
+
+    .contacts {
+        padding: 80px 0;
+    }
+
+    .contacts-grid {
+        grid-template-columns: 1fr;
+
+        gap: 43px;
+    }
+
+    .contacts-heading h2 {
+        font-size: 52px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .contact-value {
+        max-width: 100%;
+
+        text-align: left;
+    }
+
+    /* Footer */
+
+    .footer-inner {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+    }
+
+}
+
+
+@media(max-width: 380px) {
+
+    .container {
+        width: calc(100% - 32px);
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .section-title {
+        font-size: 41px;
+    }
+
+    .principle {
+        padding: 24px 13px;
+    }
+
+    .principle:first-child {
+        padding-left: 13px;
+    }
+
+}
+
+
+/* ==========================================
+   16. ACCESSIBILITY
+========================================== */
+
+@media(prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+
+        animation-duration: .01ms !important;
+
+        transition-duration: .01ms !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+
+<!-- ======================================
+     HEADER
+====================================== -->
+
+<header class="header">
+
+    <div class="container header-inner">
+
+        <a href="#home" class="brand">
+
+            <div class="brand-symbol">§</div>
+
+            <div>
+
+                <div class="brand-title">
+                    Нотариальная практика
+                </div>
+
+                <div class="brand-caption">
+                    Республика Казахстан
+                </div>
+
+            </div>
+
+        </a>
+
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+
+        <nav class="nav" id="navigation">
+
+            <a href="#about">О нотариусе</a>
+
+            <a href="#corporate">Практика</a>
+
+            <a href="#services">Направления</a>
+
+            <a href="#principles">Принципы</a>
+
+            <a href="#contacts">Контакты</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- ======================================
+     HERO
+====================================== -->
+
+<section class="hero" id="home">
+
+    <div class="container hero-grid">
+
+
+        <div class="hero-content reveal">
+
+            <div class="hero-overline">
+                Республика Казахстан
+
+                <span></span>
+
+                Профессиональная практика
+            </div>
+
+
+            <h1 id="heroName">
+                Асель<br>
+                <em>Жауканова</em>
+            </h1>
+
+
+            <div class="hero-role">
+                Частный нотариус
+            </div>
+
+
+            <p class="hero-text">
+                Двадцать лет профессионального пути,
+                основанного на законности, ответственности
+                и глубоком понимании нотариальной деятельности.
+
+                В центре моей работы — юридическая точность,
+                внимание к деталям и уважение к доверию,
+                которое мне оказывают люди.
+            </p>
+
+
+            <div class="hero-line"></div>
+
+        </div>
+
+
+
+        <div class="hero-visual reveal delay-2">
+
+            <div class="hero-seal">
+
+                <div class="seal-inner">
+
+                    <div class="seal-symbol">
+                        §
+                    </div>
+
+                    <div class="seal-caption">
+                        Закон · Доверие · Ответственность
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-side-note">
+                PROFESSIONAL PRACTICE
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     FACTS
+====================================== -->
+
+<section class="facts">
+
+    <div class="container facts-grid">
+
+
+        <div class="fact reveal">
+
+            <div class="fact-number">
+                20
+            </div>
+
+            <div class="fact-description">
+                Лет профессионального опыта
+            </div>
+
+        </div>
+
+
+        <div class="fact reveal delay-1">
+
+            <div class="fact-number">
+                1000+
+            </div>
+
+            <div class="fact-description">
+                Оформленных документов
+            </div>
+
+        </div>
+
+
+        <div class="fact reveal delay-2">
+
+            <div class="fact-number">
+                360°
+            </div>
+
+            <div class="fact-description">
+                Направлений нотариальной практики
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     ABOUT / STORY
+====================================== -->
+
+<section class="section story" id="about">
+
+    <div class="container story-grid">
+
+
+        <div class="story-aside reveal">
+
+            <div class="section-label">
+                Профессиональный путь
+            </div>
+
+            <div class="story-aside-number">
+                20
+            </div>
+
+            <div class="story-aside-caption">
+                Лет в профессии
+            </div>
+
+        </div>
+
+
+
+        <div class="story-content reveal delay-1">
+
+            <h2>
+                Профессия,<br>
+                в которой важна<br>
+                каждая деталь.
+            </h2>
+
+
+            <p>
+                Я — нотариус с <strong>20-летним профессиональным стажем</strong>.
+                На протяжении многих лет моя деятельность
+                основана на принципах законности,
+                профессиональной этики, ответственности
+                и индивидуального подхода к каждому человеку.
+            </p>
+
+
+            <p>
+                За годы работы мне оказывали доверие
+                представители международных компаний,
+                национальных корпораций, финансовых институтов,
+                делового сообщества и частные клиенты.
+            </p>
+
+
+            <p>
+                Нотариальная практика охватывает широкий круг
+                юридически значимых вопросов: от имущественных
+                и наследственных отношений до корпоративных
+                сделок и оформления документов.
+            </p>
+
+
+            <p>
+                Двадцать лет работы — это тысячи документов,
+                различные правовые ситуации и постоянное
+                взаимодействие с людьми, для которых
+                юридическая точность имеет особое значение.
+            </p>
+
+
+            <div class="story-highlight">
+
+                «За каждым документом стоит не просто юридическая
+                процедура, а важное решение в жизни человека».
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     CORPORATE
+====================================== -->
+
+<section class="section corporate" id="corporate">
+
+    <div class="container">
+
+
+        <div class="corporate-top reveal">
+
+            <div>
+
+                <div class="section-label">
+                    Профессиональное взаимодействие
+                </div>
+
+                <h2 class="section-title">
+                    Корпоративная<br>
+                    практика
+                </h2>
+
+            </div>
+
+
+            <p class="corporate-note">
+
+                В разные годы профессиональной деятельности
+                осуществлялось взаимодействие с представителями
+                международного бизнеса, крупными предприятиями
+                и финансовыми организациями.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="corporate-grid">
+
+
+            <!-- INTERNATIONAL -->
+
+            <article class="corporate-card reveal">
+
+                <div class="corporate-card-index">
+                    01
+                </div>
+
+                <h3>
+                    Международные компании
+                    и предприятия
+                </h3>
+
+
+                <div class="corporate-list">
+
+                    <span class="company">
+                        AGIP
+                    </span>
+
+                    <span class="company">
+                        Schlumberger
+                    </span>
+
+                    <span class="company">
+                        Каспийский трубопроводный консорциум
+                    </span>
+
+                </div>
+
+
+                <p class="corporate-footnote">
+
+                    А также другие крупные корпоративные структуры.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- BANKING -->
+
+            <article class="corporate-card reveal delay-1">
+
+                <div class="corporate-card-index">
+                    02
+                </div>
+
+                <h3>
+                    Банковский сектор
+                </h3>
+
+
+                <div class="corporate-list">
+
+                    <span class="company">
+                        Казкоммерцбанк
+                    </span>
+
+                    <span class="company">
+                        Отбасы банк
+                    </span>
+
+                    <span class="company">
+                        Kaspi Bank
+                    </span>
+
+                    <span class="company">
+                        Нурбанк
+                    </span>
+
+                </div>
+
+
+                <p class="corporate-footnote">
+
+                    А также другие финансовые организации.
+
+                </p>
+
+            </article>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     SERVICES
+====================================== -->
+
+<section class="section practice" id="services">
+
+    <div class="container">
+
+
+        <div class="practice-intro reveal">
+
+            <div>
+
+                <div class="section-label">
+                    Основные направления
+                </div>
+
+                <h2 class="section-title">
+                    Нотариальная<br>
+                    деятельность
+                </h2>
+
+            </div>
+
+
+            <p class="section-description">
+
+                Профессиональная деятельность включает
+                нотариальные действия, предусмотренные
+                законодательством Республики Казахстан.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="practice-grid">
+
+
+            <!-- 01 -->
+
+            <article class="practice-card reveal">
+
+                <div class="practice-number">
+                    01
+                </div>
+
+                <h3>
+                    Сделки и договоры
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Удостоверение сделок и договоров
+                    </li>
+
+                    <li>
+                        Договоры купли-продажи
+                    </li>
+
+                    <li>
+                        Договоры дарения
+                    </li>
+
+                    <li>
+                        Договоры мены
+                    </li>
+
+                    <li>
+                        Брачные договоры
+                    </li>
+
+                    <li>
+                        Соглашения о разделе имущества
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+
+            <!-- 02 -->
+
+            <article class="practice-card reveal delay-1">
+
+                <div class="practice-number">
+                    02
+                </div>
+
+                <h3>
+                    Недвижимость и имущество
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Сделки с недвижимым имуществом
+                    </li>
+
+                    <li>
+                        Имущественные вопросы
+                    </li>
+
+                    <li>
+                        Оформление правовых документов
+                    </li>
+
+                    <li>
+                        Удостоверение имущественных сделок
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+
+            <!-- 03 -->
+
+            <article class="practice-card reveal">
+
+                <div class="practice-number">
+                    03
+                </div>
+
+                <h3>
+                    Наследственные дела
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Ведение наследственных дел
+                    </li>
+
+                    <li>
+                        Выдача свидетельств о праве на наследство
+                    </li>
+
+                    <li>
+                        Оформление наследственных прав
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+
+            <!-- 04 -->
+
+            <article class="practice-card reveal delay-1">
+
+                <div class="practice-number">
+                    04
+                </div>
+
+                <h3>
+                    Доверенности и документы
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Оформление доверенностей
+                    </li>
+
+                    <li>
+                        Согласия и заявления
+                    </li>
+
+                    <li>
+                        Удостоверение копий документов
+                    </li>
+
+                    <li>
+                        Свидетельствование подлинности подписей
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+
+            <!-- 05 -->
+
+            <article class="practice-card reveal">
+
+                <div class="practice-number">
+                    05
+                </div>
+
+                <h3>
+                    Корпоративные вопросы
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Корпоративные вопросы юридических лиц
+                    </li>
+
+                    <li>
+                        Имущественные вопросы организаций
+                    </li>
+
+                    <li>
+                        Нотариальное сопровождение деятельности
+                        юридических лиц
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+
+            <!-- 06 -->
+
+            <article class="practice-card reveal delay-1">
+
+                <div class="practice-number">
+                    06
+                </div>
+
+                <h3>
+                    Иные нотариальные действия
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Нотариальные действия, предусмотренные
+                        законодательством Республики Казахстан
+                    </li>
+
+                    <li>
+                        Действия в пределах установленной
+                        законодательством компетенции нотариуса
+                    </li>
+
+                </ul>
+
+            </article>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     PRINCIPLES
+====================================== -->
+
+<section class="section principles" id="principles">
+
+    <div class="container">
+
+
+        <div class="principles-heading reveal">
+
+            <div class="section-label">
+                Основа профессиональной деятельности
+            </div>
+
+            <h2 class="section-title">
+                Профессиональные<br>
+                принципы
+            </h2>
+
+        </div>
+
+
+
+        <div class="principles-grid">
+
+
+            <article class="principle reveal">
+
+                <div class="principle-number">
+                    01
+                </div>
+
+                <h3>
+                    Компетентность
+                </h3>
+
+                <p>
+                    Двадцать лет практического опыта,
+                    профессиональные знания и глубокое
+                    понимание нотариальной деятельности.
+                </p>
+
+            </article>
+
+
+
+            <article class="principle reveal delay-1">
+
+                <div class="principle-number">
+                    02
+                </div>
+
+                <h3>
+                    Надёжность
+                </h3>
+
+                <p>
+                    Внимание к каждой детали и ответственное
+                    отношение к каждому документу,
+                    правовому вопросу и нотариальному действию.
+                </p>
+
+            </article>
+
+
+
+            <article class="principle reveal delay-2">
+
+                <div class="principle-number">
+                    03
+                </div>
+
+                <h3>
+                    Доверие
+                </h3>
+
+                <p>
+                    Репутация, формирующаяся годами
+                    профессиональной практики, взаимодействия
+                    с организациями и частными лицами.
+                </p>
+
+            </article>
+
+
+
+            <article class="principle reveal delay-3">
+
+                <div class="principle-number">
+                    04
+                </div>
+
+                <h3>
+                    Внимание к человеку
+                </h3>
+
+                <p>
+                    Умение выслушать, разобраться
+                    в обстоятельствах ситуации и действовать
+                    в рамках законодательства.
+                </p>
+
+            </article>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     PHILOSOPHY
+====================================== -->
+
+<section class="philosophy">
+
+    <div class="container">
+
+        <div class="philosophy-content reveal">
+
+
+            <div class="section-label">
+                Личное отношение к профессии
+            </div>
+
+
+            <h2>
+                Нотариальная деятельность —
+                это прежде всего ответственность.
+            </h2>
+
+
+            <div class="philosophy-text">
+
+
+                <p>
+                    Я искренне люблю свою профессию.
+                </p>
+
+
+                <p>
+                    Для меня нотариальная деятельность —
+                    это не просто оформление документов
+                    и совершение нотариальных действий.
+                    Это большая ответственность за юридическую
+                    чистоту сделок, защиту интересов людей
+                    и правовую определённость важных решений.
+                </p>
+
+
+                <p>
+                    За каждым документом стоят человеческие
+                    судьбы, семейные истории, бизнес, имущество
+                    и важные жизненные обстоятельства.
+                </p>
+
+
+                <p>
+                    Поэтому в моей работе особое значение имеют
+                    точность, внимательность, профессиональная
+                    этика и уважение к каждому человеку.
+                </p>
+
+
+                <p>
+                    Я ценю доверие, которое мне оказывают,
+                    и считаю своей главной профессиональной
+                    задачей оправдывать его каждый день.
+                </p>
+
+
+            </div>
+
+
+            <div class="philosophy-author">
+
+                Профессиональная позиция
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     PROFESSIONAL JOURNEY
+====================================== -->
+
+<section class="journey">
+
+    <div class="container journey-grid">
+
+
+        <div class="journey-heading reveal">
+
+            <div class="section-label">
+                Профессиональный путь
+            </div>
+
+            <h2 class="section-title">
+                Практика,<br>
+                опыт и<br>
+                ответственность.
+            </h2>
+
+            <p class="section-description" style="margin-top:25px">
+
+                За двадцать лет профессиональной деятельности
+                накоплен значительный опыт работы с различными
+                категориями документов и правовых ситуаций.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="journey-items">
+
+
+            <div class="journey-item reveal">
+
+                <div class="journey-item-number">
+                    20
+                </div>
+
+                <div class="journey-item-text">
+
+                    <strong>
+                        Лет профессиональной практики
+                    </strong>
+
+                    Последовательная работа в нотариальной сфере.
+
+                </div>
+
+            </div>
+
+
+
+            <div class="journey-item reveal delay-1">
+
+                <div class="journey-item-number">
+                    1000+
+                </div>
+
+                <div class="journey-item-text">
+
+                    <strong>
+                        Оформленных документов
+                    </strong>
+
+                    Накопленный опыт решения различных
+                    нотариальных вопросов.
+
+                </div>
+
+            </div>
+
+
+
+            <div class="journey-item reveal delay-2">
+
+                <div class="journey-item-number">
+                    B2B
+                </div>
+
+                <div class="journey-item-text">
+
+                    <strong>
+                        Корпоративная практика
+                    </strong>
+
+                    Профессиональное взаимодействие
+                    с компаниями и финансовыми организациями.
+
+                </div>
+
+            </div>
+
+
+
+            <div class="journey-item reveal delay-3">
+
+                <div class="journey-item-number">
+                    B2C
+                </div>
+
+                <div class="journey-item-text">
+
+                    <strong>
+                        Работа с частными клиентами
+                    </strong>
+
+                    Различные жизненные, семейные
+                    и имущественные обстоятельства.
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================
+     CONTACTS
+====================================== -->
+
+<section class="contacts" id="contacts">
+
+    <div class="container contacts-grid">
+
+
+        <div class="contacts-heading reveal">
+
+            <div class="section-label">
+                Контактная информация
+            </div>
+
+
+            <h2>
+                Нотариальная<br>
+                контора
+            </h2>
+
+
+            <p>
+
+                Республика Казахстан, г. Алматы.
+
+                Информация о местонахождении,
+                режиме работы и средствах связи.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="contacts-list reveal delay-1">
+
+
+            <div class="contact-row">
+
+                <div class="contact-label">
+                    Нотариус
+                </div>
+
+                <div class="contact-value" id="contactName">
+                    Жауканова Асель Айдаровна
+                </div>
+
+            </div>
+
+
+
+            <div class="contact-row">
+
+                <div class="contact-label">
+                    Адрес
+                </div>
+
+                <div class="contact-value" id="contactAddress">
+                    г. Алматы, ул. Казыбек би, 85
+                </div>
+
+            </div>
+
+
+
+            <div class="contact-row">
+
+                <div class="contact-label">
+                    Режим работы
+                </div>
+
+                <div class="contact-value" id="contactHours">
+                    Режим работы уточняйте по телефону
+                </div>
+
+            </div>
+
+
+
+            <div class="contact-row">
+
+                <div class="contact-label">
+                    Телефон
+                </div>
+
+                <div class="contact-value" id="contactPhone">
+                    +7 701 566-22-66
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ======================================
+     FOOTER
+====================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-inner">
+
+
+        <div class="footer-brand">
+            Нотариальная практика · Жауканова А. А.
+        </div>
+
+
+        <div class="footer-copy">
+
+            Республика Казахстан, г. Алматы ·
+            Профессиональная информация
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- ======================================
+     JAVASCRIPT
+====================================== -->
+
+<script>
+
+
+/* ==========================================
+   ПЕРСОНАЛЬНЫЕ ДАННЫЕ
+
+   Здесь можно изменить имя, адрес,
+   телефон и режим работы.
+
+========================================== */
+
+
+const profile = {
+
+    name: "Жауканова Асель Айдаровна",
+
+    address: "г. Алматы, ул. Казыбек би, 85",
+
+    hours: "Режим работы уточняйте по телефону",
+
+    phone: "+7 701 566-22-66"
+
+};
+
+
+
+/* ==========================================
+   ЗАПОЛНЕНИЕ КОНТАКТОВ
+========================================== */
+
+
+function fillText(id, value) {
+
+    const element = document.getElementById(id);
+
+    if (element) {
+
+        element.textContent = value;
+
+    }
+
+}
+
+
+fillText("contactName", profile.name);
+fillText("contactAddress", profile.address);
+fillText("contactHours", profile.hours);
+
+// Также обновляем имя в блоке Hero, чтобы оно корректно отображалось
+const heroNameElement = document.getElementById("heroName");
+if (heroNameElement) {
+    heroNameElement.innerHTML = "Асель<br><em>Жауканова</em>";
+}
+
+
+/* ==========================================
+   ТЕЛЕФОН
+========================================== */
+
+
+const phoneElement = document.getElementById("contactPhone");
+
+const phoneDigits = profile.phone.replace(/\D/g, "");
+
+
+if (phoneElement) {
+
+    phoneElement.textContent = profile.phone;
+
+    if (phoneDigits.length >= 10) {
+
+        const link = document.createElement("a");
+
+        link.href = "tel:+" + phoneDigits;
+
+        link.textContent = profile.phone;
+
+        phoneElement.textContent = "";
+
+        phoneElement.appendChild(link);
+
+    }
+
+}
+
+
+
+/* ==========================================
+   MOBILE MENU
+========================================== */
+
+
+const menuButton = document.getElementById("menuButton");
+
+const navigation = document.getElementById("navigation");
+
+
+menuButton.addEventListener("click", () => {
+
+    const isOpen = navigation.classList.toggle("open");
+
+    menuButton.textContent = isOpen ? "×" : "☰";
+
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+
+});
+
+
+navigation.querySelectorAll("a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        navigation.classList.remove("open");
+
+        menuButton.textContent = "☰";
+
+        menuButton.setAttribute("aria-expanded", "false");
+
+    });
+
+});
+
+
+
+/* ==========================================
+   SCROLL REVEAL
+========================================== */
+
+
+const revealElements = document.querySelectorAll(".reveal");
+
+const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+).matches;
+
+
+if ("IntersectionObserver" in window && !reducedMotion) {
+
+    const observer = new IntersectionObserver(
+
+        (entries, observer) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    observer.unobserve(entry.target);
+
+                }
+
+            });
+
+        },
+
+        {
+            threshold: 0.12,
+            rootMargin: "0px 0px -30px 0px"
+        }
+
+    );
+
+
+    revealElements.forEach(element => {
+
+        observer.observe(element);
+
+    });
+
+} else {
+
+    revealElements.forEach(element => {
+
+        element.classList.add("visible");
+
+    });
+
+}
+
+
+
+/* ==========================================
+   SCROLL PROGRESS
+========================================== */
+
+
+const progress = document.getElementById("progress");
+
+
+function updateProgress() {
+
+    const scrollTop = window.scrollY;
+
+    const scrollHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+
+    const percentage = scrollHeight > 0
+        ? (scrollTop / scrollHeight) * 100
+        : 0;
+
+    progress.style.width = percentage + "%";
+
+}
+
+
+window.addEventListener("scroll", updateProgress, {
+    passive: true
+});
+
+
+</script>
+
+</body>
+
+</html>
